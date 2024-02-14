@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+
+       
+
+        .logout{
+            display: flex;
+            border: none;
+            border-radius: 5px;
+            vertical-align: bottom;
+            height: inherit;
+            background-color: white;
+            margin-left: 10px;
+            cursor: pointer;
+            
+        }
+        
+        .image{
+            border-radius: 10px;
+            cursor: pointer
+            
+            
+        }
+
+        .btncourses{
+            color: white;
+            border:none;
+            cursor: pointer;
+            background-color: rgb(124, 211, 240);
+            opacity: 20px;
+            vertical-align:bottom;
+            align-items: center;
+            display: flex;
+            height: 50px;
+            width: 100px;
+            
+        }
+
+        .btncoursesContainer{
+            width: 100px;
+            opacity: 20px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+
+        }
+
+        
+        .mainbody{
+            display: flex;
+            width: 1000px;
+            height: 1%;
+            margin-left: 20px;
+
+        }
+    </style>
+
+  </head>
+  <body>
+    <div><h1>Welcome to KAS UCC.Edu</h1></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <div class="container" style="display: inline-flex;">
+
+        <div class="" style="display: flexbox; height: 50px;  width: 1100px; ">
+            <button type="button" class="info" onclick= infoDetails>Info</button>
+            <button type="button" class="menu">Manu</button>
+
+        </div>
+
+        <div style= display:flex; ">
+            <button type="button" class="image">Image</button>
+            <button type="button" class="logout">Logout</button>
+
+        </div>
+    </div>
+    <div class="contentbody" >
+        <div class="btncoursesContainer">
+            
+            <div style="align-items: bottom;">
+                <div><h2>Course</h2></div>
+
+                <div><button class="btncourses">ICT</button></div>
+                <div><button class="btncourses">Maths</button></div>
+                <div><button class="btncourses">Econs</button></div>
+                <div><button class="btncourses">Biology</button></div>
+                <div><button class="btncourses">Physics</button></div>
+                <div><button class="btncourses">Chemistry</button></div>
+                <div><button class="btncourses">Arts</button></div>
+                <div><button class="btncourses">More</button></div>
+            </div>
+
+            <div class="mainbody">
+                <h2 style="align-items: center;">Main body, it will make sense oneday</h2>
+    
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    
+    <script>
+        function(infoDetails){
+            let a="This website was design by Nation"
+            return(alert({a}))
+        }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE>KOFHAY SERVICES</TITLE>
+
+        <STYLE>
+             .form{
+                width: auto;
+                background-color: slateblue;
+                margin-top: 20;
+            }
+        </STYLE>
+
+    </HEAD>
+    
+
+    <BODY MARGINWIDTH=500>
+
+
+        <FORM NAME="frmLoginPage"  class="form" action="process.html" method = "Get" enctype="multipart/form-data">
+        <p>USER ID:
+        <P><INPUT TYPE="TEXT" NAME="txtUserId" PLACEHOLDER="example@gmail.com">
+        <p>PASSWORD:
+        <P><INPUT TYPE="PASWORD" NAME="pwd" PLACEHOLDER="PASWORD" MAXLENGTH=6>
+        <p>GENDER:
+        <P>
+            <INPUT TYPE="RADIO" NAME="rdbGender" VALUE="MALE" CHECKED>MALE
+            <INPUT TYPE="RADIO" NAME="rdbGender" VALUE="FEMALE" CHECKED>FEMALE
+        </P>
+        <p>Pick Days for Class:
+        <P>
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="MON">MONDAY
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="TUE">TUESDAY
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="WED">WEDNESDAY
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="THU">THURSDAY
+            
+        </P>
+        <p>
+
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="FRI">FRIDAY
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="MON">SATURDAY
+            <INPUT TYPE="CHECKBOX" NAME="chbWeekDays" VALUE="MON">SUNDAY
+        </P>
+
+        <P>SELECT AN OPTION:
+        <SELECT NAME="slcCourseName" MULTIPLE SIDE=5>
+            <OPTION>SELECT AN OPTION</OPTION>
+            <OPTION VALUE="CPP">C++</OPTION>
+            <OPTION VALUE="CSHARP" select>C#</OPTION>
+            <OPTION VALUE="JAVA">JAVA</OPTION>
+            <OPTION VALUE="PYTON">PYTON</OPTION>
+        </SELECT>
+        <P>
+        <TEXTAREA PLACEHOLDER="GIVE YOUR FEEDBACK" NAME="FEEDBACK" ROWS=5 COLS=30
+    WRAP="VIRTUAL" MAXLENGTH=50>
+        </TEXTAREA>
+        <P>
+        <INPUT NAME="frmSubmit" TYPE="SUBMIT"
+        </P>
+            
+
+
+        </FORM>
+
+    </BODY>
+
+
+
+
+
+
+
+
+</HTML>

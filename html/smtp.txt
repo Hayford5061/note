@@ -1,0 +1,28 @@
+eandoh1998@gmail.com
+A07F4F5EB5206D1052112777DCFDF46ABA03
+
+
+smtp.elasticemail.com
+2525
+
+Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+formsubmit.co
+<form action="https://formsubmit.co/your@email.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form>.....the enter your email at the Action

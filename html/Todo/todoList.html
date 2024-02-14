@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <title>Todo List</title>
+    </head>
+
+    <body>
+        <p>Todo List</p>
+        <input placeholder="Todo Name" class="js-name-input">
+        <button onclick="addTodo";>Add</button>
+
+        <p></p>
+        
+        <div class="js-todo-list ">text</div>
+
+    
+    
+    <script>
+         let todoList = [];
+
+
+        function addTodo(){
+            const inputElement = document.querySelector('.js-name-input');
+            const name = inputElement.value; 
+            
+            todoList.pust(name);
+            console.log(todoList);
+
+            inputElement.value = '';  
+
+        }
+        
+
+        let todoList = '';
+
+        for (let i = 0; i < todoLIst.length; i++){
+            const todo = todoList[i];
+            const html = <p>${todo}</p>
+            todoListHTML += hmtl;
+        }
+
+    </script>
+    
+    
+    </body>
